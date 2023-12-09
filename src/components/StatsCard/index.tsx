@@ -121,7 +121,7 @@ const Card = ({ data }: { data: StatData }) => {
             </HStack>
           </VStack>
         </HStack>
-        <Flex py={3} px={5} d="none" _groupHover={{ d: "flex" }}>
+        <Flex py={3} px={5} _groupHover={{ d: "flex" }}>
           <Link fontSize="md">Ver todos</Link>
         </Flex>
       </Stack>

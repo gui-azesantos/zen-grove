@@ -79,7 +79,9 @@ export const LoginPage = () => {
                     },
                   })}
                 />
-                <FormErrorMessage>{errors.email?.message}</FormErrorMessage>
+                <FormErrorMessage>
+                  {errors.email?.message?.toString()}
+                </FormErrorMessage>
               </FormControl>
               <FormControl id="password" isInvalid={!!errors.password}>
                 <FormLabel>Senha</FormLabel>
@@ -106,7 +108,7 @@ export const LoginPage = () => {
                       {show ? "Esconder" : "Mostrar"}
                     </Button>
                     <FormErrorMessage>
-                      {errors.password?.message}
+                      {errors.password?.message?.toString()}
                     </FormErrorMessage>
                   </InputRightElement>
                 </InputGroup>

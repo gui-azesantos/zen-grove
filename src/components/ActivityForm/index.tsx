@@ -9,7 +9,6 @@ import {
   Input,
   Select,
 } from "@chakra-ui/react";
-import InputMask from "react-input-mask";
 
 export const ActivityForm = () => {
   return (
@@ -44,11 +43,7 @@ export const ActivityForm = () => {
               Quando
             </FormLabel>
 
-            <InputMask mask="99/99/9999" maskChar={null}>
-              {(inputProps) => (
-                <Input {...inputProps} placeholder="dd/mm/yyyy" />
-              )}
-            </InputMask>
+            <Input placeholder="dd/mm/yyyy" />
           </FormControl>
           <FormControl
             id="guests"
