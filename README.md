@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# ZenGrove
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o repositório do ZenGrove, uma aplicação desenvolvida com Vite, React e TypeScript, focada em ajudar os usuários a contribuir para metas ESG (ambientais, sociais e de governança).
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O ZenGrove é uma plataforma que permite aos usuários registrar e participar de atividades relacionadas às metas ESG. Com uma interface intuitiva, os usuários podem explorar e contribuir para iniciativas ambientais, sociais e de governança, contribuindo para um mundo mais sustentável e ético.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Vite
+- React
+- TypeScript
+- Chakra UI
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Para executar este projeto localmente, siga estas etapas:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone o repositório: `git clone https://github.com/gui-azesantos/ZenGrove.git`
+2. Acesse o diretório do projeto: `cd ZenGrove`
+3. Instale as dependências: `yarn`
+4. Inicie a aplicação: `yarn dev`
+
+Certifique-se de ter o Node.js instalado em seu ambiente de desenvolvimento.
+
+---
+
+Este projeto é licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT).
